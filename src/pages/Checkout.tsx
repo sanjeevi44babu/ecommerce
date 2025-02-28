@@ -15,7 +15,7 @@ export const Checkout = () => {
 
   const total = state.cart.reduce(
     (sum, item) => sum + item.price * item.quantity,
-    0
+    
   );
 
   const handleCheckout = async (e) => {
