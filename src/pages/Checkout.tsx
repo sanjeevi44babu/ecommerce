@@ -32,7 +32,7 @@ export const Checkout = () => {
     };
 
     try {
-      const response = await fetch('http://localhost:5000/checkout', {
+      const response = await fetch('https://e-backend-mk51.onrender.com/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(orderData)
